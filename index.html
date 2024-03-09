@@ -28,6 +28,11 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             padding: 20px;
         }
+        .music {
+            position:fixed;
+            bottom: 0;
+
+        }
 
         .content {
             text-align: justify;
@@ -38,10 +43,12 @@
     <title>zxymiku</title>
 </head>
 <body>
-    
+    <div class="music">
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=530 height=110 src="//music.163.com/outchain/player?type=0&id=5158964279&auto=1&height=90"></iframe>
+    </div>
     <div class="glass-container">
         <div class="content">
-            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2122909775&auto=1&height=66"></iframe>
+            
             <p>这里是显示内容的部分，背景应用了毛玻璃效果。</p>
         </div>
     </div>
